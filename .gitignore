@@ -1,0 +1,18 @@
+# 这些是"可重新生成"的重资产，不进仓库
+models/
+envs/
+wheels/
+ComfyUI/
+ComfyUI*/input/
+
+# 运行时产物
+out/comfy*.log
+out/install.log
+out/comfy.stdout.log
+out/comfy.stderr.log
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

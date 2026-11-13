@@ -1,0 +1,86 @@
+[
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__01_standing_front__d90__s383651388.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "01_standing_front",
+    "denoise": 0.9,
+    "seed": 383651388
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__02_three_quarter_hip__d90__s39184086.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "02_three_quarter_hip",
+    "denoise": 0.9,
+    "seed": 39184086
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__03_hands_behind__d90__s1791103377.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "03_hands_behind",
+    "denoise": 0.9,
+    "seed": 1791103377
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__04_sitting_chair__d90__s280512905.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "04_sitting_chair",
+    "denoise": 0.9,
+    "seed": 280512905
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__05_sitting_floor__d90__s781851602.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "05_sitting_floor",
+    "denoise": 0.9,
+    "seed": 781851602
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__06_kneeling__d90__s1973734100.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "06_kneeling",
+    "denoise": 0.9,
+    "seed": 1973734100
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__07_leaning_wall__d90__s1368891952.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "07_leaning_wall",
+    "denoise": 0.9,
+    "seed": 1368891952
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__08_arms_crossed__d90__s1957967352.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "08_arms_crossed",
+    "denoise": 0.9,
+    "seed": 1957967352
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__09_hand_on_chest__d90__s20663118.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "09_hand_on_chest",
+    "denoise": 0.9,
+    "seed": 20663118
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__10_waist_up__d90__s983410647.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "10_waist_up",
+    "denoise": 0.9,
+    "seed": 983410647
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__11_looking_back__d90__s141073581.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "11_looking_back",
+    "denoise": 0.9,
+    "seed": 141073581
+  },
+  {
+    "file": "out\\gen15\\常装2无表情__常装2无表情__12_arms_up__d90__s1106736568.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\常装2无表情__常装2无表情.png",
+    "pose": "12_arms_up",
+    "denoise": 0.9,
+    "seed": 1106736568
+  }
+]

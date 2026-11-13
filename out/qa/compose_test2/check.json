@@ -1,0 +1,44 @@
+[
+  {
+    "base": "D:\\浏览器\\新人物设计\\人物初版设计图\\内衣1.png",
+    "patch": "D:\\浏览器\\新人物设计\\表情\\hukumomi_1.png",
+    "out": "out\\qa\\compose_test2\\内衣1__hukumomi_1.png",
+    "canvas": [
+      1488,
+      2272
+    ],
+    "patch_bbox": [
+      786,
+      408,
+      920,
+      498
+    ],
+    "inside_face_rect": true,
+    "offset": [
+      -2,
+      2
+    ],
+    "issues": []
+  },
+  {
+    "base": "D:\\浏览器\\新人物设计\\人物初版设计图\\内衣1.png",
+    "patch": "D:\\浏览器\\新人物设计\\表情\\hukumomi_7.png",
+    "out": "out\\qa\\compose_test2\\内衣1__hukumomi_7.png",
+    "canvas": [
+      1488,
+      2272
+    ],
+    "patch_bbox": [
+      782,
+      412,
+      928,
+      498
+    ],
+    "inside_face_rect": true,
+    "offset": [
+      0,
+      4
+    ],
+    "issues": []
+  }
+]

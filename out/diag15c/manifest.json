@@ -1,0 +1,9 @@
+[
+  {
+    "file": "out\\diag15c\\hukusimi__hukusimi__04_sitting_chair__d100__s383651388.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\hukusimi__hukusimi.png",
+    "pose": "04_sitting_chair",
+    "denoise": 1.0,
+    "seed": 383651388
+  }
+]

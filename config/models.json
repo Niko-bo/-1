@@ -1,0 +1,40 @@
+{
+  "note": "Phase 0 需要下载的模型清单。放 ComfyUI/models/ 对应子目录。体积是近似值，总占用约 30~35GB（D 盘 514GB 够）。",
+  "comfyui_models": {
+    "checkpoints": [
+      {"file": "sdxl_anime_base.safetensors", "size_gb": 6.6, "what": "SDXL 动漫底模（Illustrious / NoobAI-XL 系任选其一）", "why": "和你参考图同一血统：赛璐璐上色 + 柔和渐变，最省风格迁移成本"},
+      {"file": "sd15_anime_base.safetensors", "size_gb": 2.0, "what": "SD1.5 动漫底模", "why": "只给 AnimateDiff 视频路线用"}
+    ],
+    "loras": [
+      {"file": "nmk_char_sdxl.safetensors", "size_gb": 0.2, "what": "阶段 2 自己训出来的角色 LoRA"}
+    ],
+    "controlnet": [
+      {"file": "controlnet_pose_sdxl.safetensors", "size_gb": 2.5, "what": "OpenPose/DW-Pose SDXL", "why": "锁姿势"},
+      {"file": "controlnet_depth_sdxl.safetensors", "size_gb": 2.5, "what": "Depth SDXL", "why": "锁构图与遮挡关系，出事件 CG 时比姿势更稳"}
+    ],
+    "clip_vision": [
+      {"file": "CLIP-ViT-H-14-laion2B.safetensors", "size_gb": 2.5, "what": "IP-Adapter 用的视觉编码器", "why": "锁脸"}
+    ],
+    "ipadapter": [
+      {"file": "ip-adapter-plus-face_sdxl.safetensors", "size_gb": 0.8, "what": "IP-Adapter Plus Face", "why": "阶段 1 扩图靠它，训 LoRA 前就能出同人设新姿势"}
+    ],
+    "upscale_models": [
+      {"file": "4x_anime_sharp.pth", "size_gb": 0.07, "what": "4x 动漫放大", "why": "1216 -> 2432 -> 1920x1080 事件 CG 交付"}
+    ],
+    "animatediff": [
+      {"file": "mm_sd_v15_v2.ckpt", "size_gb": 1.8, "what": "AnimateDiff motion module"},
+      {"file": "v2_lora_ZoomIn.ckpt", "size_gb": 0.04, "what": "Motion LoRA"}
+    ],
+    "framepack": [
+      {"file": "FramePack_F1_I2V_HY_bf16.safetensors", "size_gb": 6.0, "what": "FramePack 首尾帧视频", "why": "6GB 显存就能跑，适合 8GB 机器做 CG 动态镜头"}
+    ],
+    "wan": [
+      {"file": "wan2.2_ti2v_5B_Q4_K_M.gguf", "size_gb": 3.3, "what": "Wan 2.2 TI2V 5B 量化", "why": "8GB 能跑的镜头级运动"},
+      {"file": "umt5_xxl_fp8.safetensors", "size_gb": 6.0, "what": "Wan 文本编码器"}
+    ]
+  },
+  "python_env": {
+    "dir": "D:/dp玩/cg-pipeline/envs",
+    "note": "kohya sd-scripts 单独建一个 venv，避免和 ComfyUI 的 torch 版本打架"
+  }
+}

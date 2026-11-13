@@ -1,0 +1,5 @@
+nmk_char, 1girl, solo, full body, standing, looking at viewer, silver hair, long hair, hair over one eye, blue eyes, white dress shirt, black pencil skirt, long cape, black pantyhose, simple background, white background, masterpiece, best quality
+nmk_char, 1girl, upper body, portrait, silver hair, long hair, blue eyes, gentle smile, soft blush, looking at viewer, simple background, masterpiece
+nmk_char, 1girl, solo, full body, standing, black lace lingerie, open white shirt, garter belt, black thighhighs, seductive, dim lighting, bedroom, masterpiece
+nmk_char, 1girl, cowboy shot, from side, silver hair, long hair, closed eyes, tears, sad, rain, cinematic lighting, depth of field, masterpiece
+nmk_char, 1girl, solo, sitting, knees up, white dress shirt, black pencil skirt, dark room, rim light, looking away, serious, masterpiece

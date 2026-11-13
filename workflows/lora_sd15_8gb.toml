@@ -1,0 +1,50 @@
+# kohya sd-scripts / SD1.5 角色 LoRA —— 给视频路线（AnimateDiff）用
+# 为什么单独训一个：AnimateDiff 跑在 SD1.5 latent 空间，SDXL 的 LoRA 喂不进去。
+# 8GB 上 SD1.5 训练很轻松，同一套数据集直接复用，约 20~40 分钟。
+
+[model]
+pretrained_model_name_or_path = "D:/dp玩/cg-pipeline/models/sd15_anime_base.safetensors"
+v2 = false
+v_parameterization = false
+
+[dataset]
+train_data_dir = "D:/dp玩/cg-pipeline/out/dataset/char"
+resolution = "512,768"
+enable_bucket = true
+min_bucket_reso = 384
+max_bucket_reso = 1024
+bucket_reso_steps = 64
+caption_extension = ".txt"
+shuffle_caption = true
+keep_tokens = 1
+flip_aug = false
+
+[network]
+network_module = "networks.lora"
+network_dim = 32
+network_alpha = 16
+
+[optimizer]
+optimizer_type = "AdamW8bit"
+learning_rate = 1e-4
+unet_lr = 1e-4
+text_encoder_lr = 5e-5
+lr_scheduler = "cosine"
+
+[training]
+train_batch_size = 2
+max_train_epochs = 15
+save_every_n_epochs = 3
+gradient_checkpointing = true
+mixed_precision = "fp16"
+save_precision = "fp16"
+seed = 20261113
+cache_latents = true
+cache_latents_to_disk = true
+sdpa = true
+max_data_loader_n_workers = 2
+lowram = true
+output_dir = "D:/dp玩/cg-pipeline/models/lora"
+output_name = "nmk_char_sd15"
+logging_dir = "D:/dp玩/cg-pipeline/models/logs"
+log_with = "tensorboard"

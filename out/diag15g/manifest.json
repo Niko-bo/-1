@@ -1,0 +1,16 @@
+[
+  {
+    "file": "out\\diag15g\\hukusimi__hukusimi__08_bust_front__d90__s383651388.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\hukusimi__hukusimi.png",
+    "pose": "08_bust_front",
+    "denoise": 0.9,
+    "seed": 383651388
+  },
+  {
+    "file": "out\\diag15g\\hukusimi__hukusimi__10_waist_up__d90__s39184086.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\hukusimi__hukusimi.png",
+    "pose": "10_waist_up",
+    "denoise": 0.9,
+    "seed": 39184086
+  }
+]

@@ -1,0 +1,61 @@
+# kohya sd-scripts / SDXL 角色 LoRA —— 8GB 显存专用配置
+# 用法：
+#   accelerate launch --num_cpu_threads_per_process 4 sdxl_train_network.py --config_file workflows/lora_sdxl_8gb.toml
+# 关键取舍：resolution 用 832x1216（贴你的立绘比例），不开 flip_aug（披风/腰带不对称），
+#          AdamW8bit + gradient_checkpointing + cache_latents_to_disk 压显存与内存。
+
+[model]
+pretrained_model_name_or_path = "D:/dp玩/cg-pipeline/models/sdxl_anime_base.safetensors"
+v2 = false
+v_parameterization = false
+
+[dataset]
+train_data_dir = "D:/dp玩/cg-pipeline/out/dataset/char"
+resolution = "832,1216"
+enable_bucket = true
+min_bucket_reso = 512
+max_bucket_reso = 1536
+bucket_reso_steps = 64
+caption_extension = ".txt"
+shuffle_caption = true
+keep_tokens = 1
+flip_aug = false
+
+[network]
+network_module = "networks.lora"
+network_dim = 32
+network_alpha = 16
+network_train_unet_only = true
+network_args = []
+
+[optimizer]
+optimizer_type = "AdamW8bit"
+learning_rate = 1e-4
+unet_lr = 1e-4
+text_encoder_lr = 4e-5
+lr_scheduler = "cosine"
+lr_scheduler_num_cycles = 1
+lr_warmup_steps = 0.05
+
+[training]
+train_batch_size = 1
+max_train_epochs = 12
+save_every_n_epochs = 2
+gradient_checkpointing = true
+gradient_accumulation_steps = 1
+mixed_precision = "bf16"
+save_precision = "bf16"
+seed = 20261113
+cache_latents = true
+cache_latents_to_disk = true
+sdpa = true
+no_half_vae = true
+max_data_loader_n_workers = 2
+lowram = true
+output_dir = "D:/dp玩/cg-pipeline/models/lora"
+output_name = "nmk_char_sdxl"
+logging_dir = "D:/dp玩/cg-pipeline/models/logs"
+log_with = "tensorboard"
+sample_every_n_epochs = 4
+sample_prompts = "D:/dp玩/cg-pipeline/workflows/sample_prompts.txt"
+sample_sampler = "euler_a"

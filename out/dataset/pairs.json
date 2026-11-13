@@ -1,0 +1,320 @@
+{
+  "canvases": {
+    "1488x2272": {
+      "count": 11,
+      "groups": [
+        "hukumomi",
+        "hukusimi",
+        "lob",
+        "normal"
+      ],
+      "bbox_union": [
+        792,
+        405,
+        913,
+        500
+      ]
+    },
+    "868x875": {
+      "count": 6,
+      "groups": [
+        "go_f01",
+        "go_f02",
+        "go_f03",
+        "go_f04",
+        "go_f05",
+        "go_f06"
+      ],
+      "bbox_union": [
+        345,
+        108,
+        655,
+        301
+      ]
+    },
+    "1200x800": {
+      "count": 1,
+      "groups": [
+        "masage_odoroki"
+      ],
+      "bbox_union": [
+        927,
+        72,
+        1090,
+        193
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\hukumomi_1.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        792,
+        409,
+        911,
+        498
+      ],
+      "group": "hukumomi",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\hukumomi_1.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\hukumomi_2.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        795,
+        413,
+        912,
+        498
+      ],
+      "group": "hukumomi",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\hukumomi_2.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\hukumomi_7.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        799,
+        413,
+        912,
+        498
+      ],
+      "group": "hukumomi",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\hukumomi_7.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\hukusimi_3.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        792,
+        411,
+        911,
+        498
+      ],
+      "group": "hukusimi",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\hukusimi_3.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\hukusimi_5.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        793,
+        405,
+        911,
+        498
+      ],
+      "group": "hukusimi",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\hukusimi_5.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\lob_10.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        792,
+        411,
+        911,
+        498
+      ],
+      "group": "lob",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\lob_10.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\lob_4.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        795,
+        414,
+        913,
+        500
+      ],
+      "group": "lob",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\lob_4.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\lob_6.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        792,
+        409,
+        911,
+        498
+      ],
+      "group": "lob",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\lob_6.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\lob_8.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        792,
+        409,
+        911,
+        498
+      ],
+      "group": "lob",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\lob_8.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\lob_9.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        792,
+        409,
+        911,
+        498
+      ],
+      "group": "lob",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\lob_9.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\表情\\normal_11.png",
+      "canvas": [
+        1488,
+        2272
+      ],
+      "alpha_bbox": [
+        793,
+        405,
+        911,
+        498
+      ],
+      "group": "normal",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\normal_11.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练\\go_f01.png",
+      "canvas": [
+        868,
+        875
+      ],
+      "alpha_bbox": [
+        346,
+        199,
+        443,
+        301
+      ],
+      "group": "go_f01",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\go_f01.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练\\go_f02.png",
+      "canvas": [
+        868,
+        875
+      ],
+      "alpha_bbox": [
+        345,
+        123,
+        655,
+        301
+      ],
+      "group": "go_f02",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\go_f02.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练\\go_f03.png",
+      "canvas": [
+        868,
+        875
+      ],
+      "alpha_bbox": [
+        354,
+        108,
+        649,
+        301
+      ],
+      "group": "go_f03",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\go_f03.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练\\go_f04.png",
+      "canvas": [
+        868,
+        875
+      ],
+      "alpha_bbox": [
+        346,
+        108,
+        649,
+        301
+      ],
+      "group": "go_f04",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\go_f04.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练\\go_f05.png",
+      "canvas": [
+        868,
+        875
+      ],
+      "alpha_bbox": [
+        347,
+        123,
+        655,
+        297
+      ],
+      "group": "go_f05",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\go_f05.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练\\go_f06.png",
+      "canvas": [
+        868,
+        875
+      ],
+      "alpha_bbox": [
+        349,
+        108,
+        649,
+        295
+      ],
+      "group": "go_f06",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\go_f06.png"
+    },
+    {
+      "source": "D:\\浏览器\\新人物设计\\新建文件夹\\骚扰分镜\\masage_odoroki.png",
+      "canvas": [
+        1200,
+        800
+      ],
+      "alpha_bbox": [
+        927,
+        72,
+        1090,
+        193
+      ],
+      "group": "masage_odoroki",
+      "crop": "D:\\dp玩\\cg-pipeline\\out\\dataset\\faces\\masage_odoroki.png"
+    }
+  ]
+}

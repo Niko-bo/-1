@@ -1,0 +1,16 @@
+[
+  {
+    "file": "out\\diag15h\\hukusimi__hukusimi__08_arms_crossed__d90__s383651388.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\hukusimi__hukusimi.png",
+    "pose": "08_arms_crossed",
+    "denoise": 0.9,
+    "seed": 383651388
+  },
+  {
+    "file": "out\\diag15h\\hukusimi__hukusimi__09_hand_on_chest__d90__s39184086.png",
+    "base": "D:\\dp玩\\cg-pipeline\\out\\dataset\\char\\hukusimi__hukusimi.png",
+    "pose": "09_hand_on_chest",
+    "denoise": 0.9,
+    "seed": 39184086
+  }
+]

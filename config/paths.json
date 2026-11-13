@@ -1,0 +1,11 @@
+{
+  "sprite_dir": "D:\\浏览器\\新人物设计\\新建文件夹\\人物初版设计图",
+  "face_dir": "D:\\浏览器\\新人物设计\\新建文件夹\\表情",
+  "pose_dir": "D:\\浏览器\\新人物设计\\新建文件夹\\姿势训练",
+  "cg_dir": "D:\\浏览器\\新人物设计\\新建文件夹\\骚扰分镜",
+  "out_dir": "D:\\dp玩\\cg-pipeline\\out",
+  "trigger_token": "nmk_char",
+  "lora_bucket": [832, 1216],
+  "face_pad": 24,
+  "background": "white"
+}
